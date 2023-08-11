@@ -1,16 +1,25 @@
 {% load static %}
 {% block styles %}
-    <link rel="stylesheet" href="{% static './css/style_navBar.css' %}">
+<link rel="stylesheet" href="{% static './css/style_navBar.css' %}">
 {% endblock %}
-<div class="menu-container">
-    <div class="logo"></div><!--Realizar el logo de acuerdo al portafolio osea mi nombre
-    con solo David Cortes-->
-    <ul class="menu-ul">
-        <li class="menu-li"><a href="">Vuelos</a></li>
-        <li class="menu-li"><a href="">Alojamiento</a></li>
-        <li class="menu-li"><a href="">Alquileres</a></li>
-        <li class="menu-li"><a href="">Atracciones Turisticas</a></li>
-        <li class="menu-signIn"><a href="">Registrarme</a></li>
-        <li class="menu-logIn"><a href="">Iniciar Sesión</a></li>
-    </ul>
+<!--Realizar el logo de acuerdo al portafolio osea mi nombre
+con solo David Cortes-->
+<div>
+    <div class="menu">
+        <ul class="menu-ul">
+            <li class="logo"><a href=""><img src="" alt=""></a></li>
+            <li class="menu-li"><a href="">Vuelos</a></li>
+            <li class="menu-li"><a href="">Alojamiento</a></li>
+            <li class="menu-li"><a href="">Alquileres</a></li>
+            <li class="menu-li"><a href="">Atracciones Turisticas</a></li>
+        </ul>
+    </div> 
+    <div class="session">
+        <button class="signIn"><a href="">Registrarme</a></button><br>
+        <button class="logIn"><a href="">Iniciar Sesion</a></button>
+    </div> 
 </div>
+
+
+
+
