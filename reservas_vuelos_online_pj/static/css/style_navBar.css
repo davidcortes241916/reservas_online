@@ -6,9 +6,19 @@
 
 a{
     text-decoration: none;
+    color: #d9d9d9;
 }
 
 /*classes*/
+.navBar{
+    align-items: center;
+    float: left;
+}
+
+.menu{
+    padding-left: 50px;
+}
+
 .menu-ul{
     list-style: none;
     font-size: 25px;
@@ -16,19 +26,23 @@ a{
 
 .menu-li{
     float: left;
-    padding: 0px 40px 0px 20px;
+    padding: 50px 50px 10px 20px;
 }
 
 .session{
-    padding-left: 325px;
+    padding-left: 500px;
 }
 
 .signIn, .logIn{
     font-size: 30px;
     border: none;
     background: none;
+    padding: 8px 8px 8px 0px;
 }
 
+.signIn{
+    padding-top: 13px;
+}
 
 /*animations*/
 
