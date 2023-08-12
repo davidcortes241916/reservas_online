@@ -4,11 +4,11 @@ html, body{
 }
 
 nav{
-    background-color: #45D659;
+    background-color: #b91f40;
     display: inline-block;
     width: 100%;
     height: 15%;
-    padding-right: 40px;
+    padding-right: 100%;
     align-items: center;
     justify-content: center;
 }
