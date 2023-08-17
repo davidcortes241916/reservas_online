@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'reservas_vuelos_online_pj',
+    'flights',#esto se debe modificar de acuerdo a las views
 ]
 
 MIDDLEWARE = [
