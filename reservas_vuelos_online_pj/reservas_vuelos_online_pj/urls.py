@@ -22,7 +22,8 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", views.index, name= "index"), #prueba 
+    path("", include("flights.urls")),
+    #path("", views.index, name= "index"), #prueba 
 ]
 
 if settings.DEBUG:
